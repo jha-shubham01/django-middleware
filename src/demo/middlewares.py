@@ -1,3 +1,4 @@
+from django.http import JsonResponse
 
 
 def set_request_data(get_response):
@@ -10,5 +11,20 @@ def set_request_data(get_response):
         print(f'start of set_request_data')
         response = get_response(request)
         print(f'end of set_request_data')
+        return response
+    return wrapper
+
+
+def check_even(get_response):
+    print('check_even middleware')
+
+    def wrapper(request):
+        print('Start of check_even')
+        number = request.POST.get('number')
+        is_odd = False
+        if number and int(number) % 2:
+            return JsonResponse({"message": "Failed from the middleware",})
+        response = get_response(request)
+        print('End of check_even')
         return response
     return wrapper
