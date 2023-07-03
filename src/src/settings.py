@@ -50,7 +50,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     # 'demo.middlewares.set_request_data',
     # 'demo.middlewares.check_even',
-    'demo.middlewares.SetRequestData',
+    # 'demo.middlewares.SetRequestData',
+    'demo.middlewares.CheckEvent',
 ]
 
 ROOT_URLCONF = 'src.urls'
