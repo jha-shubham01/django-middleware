@@ -28,3 +28,18 @@ def check_even(get_response):
         print('End of check_even')
         return response
     return wrapper
+
+
+class SetRequestData:
+    def __init__(self, get_response):
+        print('SetRequestData initalized')
+        self.get_response = get_response
+
+    def __call__(self, request):
+        print(f'post data={request.POST}')
+        data = request.POST.get('number')
+        request.POST = {'data': data}
+        print(f'start of SetRequestData')
+        response = self.get_response(request)
+        print(f'end of SetRequestData')
+        return response
