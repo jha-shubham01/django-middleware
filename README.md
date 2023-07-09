@@ -2,7 +2,7 @@
 
 # Description
 This project shows how to create your own custom Middleware in Django.
-Project covers: Function Based Middlware and Class Based Middleware
+Project covers: Function Based Middleware and Class Based Middleware
 
 ## Technology Stack
 Backend: Django <br />
