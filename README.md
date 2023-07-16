@@ -2,7 +2,7 @@
 
 # Description
 This project shows how to create your own custom Middleware in Django.
-Project covers: Function Based Middleware and Class Based Middleware
+The project covers: Function Based Middleware and Class Based Middleware
 
 ## Technology Stack
 Backend: Django <br />
@@ -20,8 +20,8 @@ Prerequisites: Python3, virtualenv
 7. Visit the server link (http://localhost:8000/)
 
 ## Video Demo
-Part 1: <br />
-Part 2: Coming soon... <br />
+Part 1: https://youtu.be/mb2KgvOOTMU <br />
+Part 2: https://youtu.be/svDJxEdnw_U <br />
 Part 3: Coming soon... <br />
 Part 4: Coming soon... <br />
 Part 5: Coming soon...
