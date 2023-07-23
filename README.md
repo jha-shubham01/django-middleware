@@ -22,6 +22,6 @@ Prerequisites: Python3, virtualenv
 ## Video Demo
 Part 1: https://youtu.be/mb2KgvOOTMU <br />
 Part 2: https://youtu.be/svDJxEdnw_U <br />
-Part 3: Coming soon... <br />
+Part 3: https://youtu.be/j7nwpcuHE8I <br />
 Part 4: Coming soon... <br />
 Part 5: Coming soon...
