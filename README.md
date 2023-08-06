@@ -24,4 +24,4 @@ Part 1: https://youtu.be/mb2KgvOOTMU <br />
 Part 2: https://youtu.be/svDJxEdnw_U <br />
 Part 3: https://youtu.be/j7nwpcuHE8I <br />
 Part 4: https://youtu.be/Oaio0trJBtc <br />
-Part 5: Coming soon...
+Part 5: https://youtu.be/UWHtSPLql-E
